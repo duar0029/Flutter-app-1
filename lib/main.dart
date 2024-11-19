@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Asset App',
       theme: ThemeData(
-        textTheme: GoogleFonts.latoTextTheme(), // Lato font for the entire app
+        textTheme: GoogleFonts.latoTextTheme(),
       ),
       home: const HomeScreen(),
     );
@@ -27,15 +27,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Asset and Network Images'),
+        title: const Text('Images and Assets'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListView(
           children: [
-            // Horizontal ListView for local images (assets)
             SizedBox(
-              height: 200, // Height for image display
+              height: 200, 
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
@@ -47,10 +46,9 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 20), // Space between widgets
-            // ListTile Widgets with Lato font
+            const SizedBox(height: 20), 
             Container(
-              color: Colors.blueGrey, // Background color for consistency
+              color: Colors.blueGrey, 
               child: ListTile(
                 title: Text(
                   'ListTile 1',
@@ -100,10 +98,9 @@ class HomeScreen extends StatelessWidget {
                 trailing: Icon(Icons.check, color: Colors.white),
               ),
             ),
-            const SizedBox(height: 20), // Space between widgets
-            // Horizontal ListView for remote images (fetched from the internet)
+            const SizedBox(height: 20), 
             SizedBox(
-              height: 200, // Height for image display
+              height: 200, 
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
@@ -115,7 +112,7 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 20), // Space between widgets
+            const SizedBox(height: 20), 
           ],
         ),
       ),

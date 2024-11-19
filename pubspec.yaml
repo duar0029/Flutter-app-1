@@ -11,7 +11,6 @@ dependencies:
     sdk: flutter
   google_fonts: ^6.2.1
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -23,3 +22,9 @@ flutter:
     - assets/images/Cats 1.jpg
     - assets/images/Cats 2.jpg
     - assets/images/Cats 3.jpg
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Lato-Italic.ttf
