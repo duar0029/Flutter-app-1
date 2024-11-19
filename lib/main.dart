@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
               color: Colors.blueGrey, 
               child: ListTile(
                 title: Text(
-                  'ListTile 1',
+                  'Lato Font 1',
                   style: GoogleFonts.lato(fontSize: 18, color: Colors.white),
                 ),
                 leading: const Icon(Icons.star, color: Colors.white),
@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
               color: Colors.blueGrey,
               child: ListTile(
                 title: Text(
-                  'ListTile 2',
+                  'Lato Font 2',
                   style: GoogleFonts.lato(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
               color: Colors.blueGrey,
               child: ListTile(
                 title: Text(
-                  'ListTile 3',
+                  'Lato Font 3',
                   style: GoogleFonts.lato(
                     fontSize: 18,
                     fontStyle: FontStyle.italic,
@@ -92,7 +92,7 @@ class HomeScreen extends StatelessWidget {
               color: Colors.blueGrey,
               child: const ListTile(
                 title: Text(
-                  'ListTile 4',
+                  'Lato Font 4',
                   style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
                 trailing: Icon(Icons.check, color: Colors.white),
@@ -104,11 +104,11 @@ class HomeScreen extends StatelessWidget {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
-                  Image.network('https://www.gstatic.com/webp/gallery/1.jpg'),
+                  Image.network('https://cdn.pixabay.com/photo/2020/10/05/10/51/cat-5628953_1280.jpg'),
                   const SizedBox(width: 10),
-                  Image.network('https://www.gstatic.com/webp/gallery/1.jpg'),
+                  Image.network('https://cdn.pixabay.com/photo/2019/05/21/07/11/cat-4218424_1280.jpg'),
                   const SizedBox(width: 10),
-                  Image.network('https://www.gstatic.com/webp/gallery/1.jpg'),
+                  Image.network('https://cdn.pixabay.com/photo/2015/06/07/19/42/animal-800760_1280.jpg'),
                 ],
               ),
             ),
